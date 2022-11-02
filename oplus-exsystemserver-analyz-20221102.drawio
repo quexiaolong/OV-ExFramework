@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T11:03:05.802Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ssMDQWAwiQcLvR_E76IG" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T13:45:43.025Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="MX8g_YKZJYsGLhKP9Xq9" version="20.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1650" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2088" dy="1988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -54,6 +54,11 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-227" y="280" as="sourcePoint" />
             <mxPoint x="-67" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eX9UmPd5lJKmrZ-AF5zG-69" value="通过SystemServerExtPlugin反射获得ISystemServerExt实例" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eX9UmPd5lJKmrZ-AF5zG-11">
+          <mxGeometry x="-0.4833" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eX9UmPd5lJKmrZ-AF5zG-12" value="OplusSystemServerHelper" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -207,6 +212,12 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="525" y="-108" as="sourcePoint" />
             <mxPoint x="500" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eX9UmPd5lJKmrZ-AF5zG-68" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="eX9UmPd5lJKmrZ-AF5zG-66" target="eX9UmPd5lJKmrZ-AF5zG-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="380" y="309" as="sourcePoint" />
+            <mxPoint x="69" y="309" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
