@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T07:47:11.947Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Txmxqe2wcpaP6MjJE_d0" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T10:02:22.472Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="9eNqUD2YJ42F4uB12KbR" version="20.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1773" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,14 +71,14 @@
         <mxCell id="SH6B0A9O5Fb8TWGNusk7-16" value="+ getAmsExtAdapter():AbsAmsExtAdapter" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SH6B0A9O5Fb8TWGNusk7-0">
           <mxGeometry y="60" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="SH6B0A9O5Fb8TWGNusk7-3" value="+ getSystemServerAdapter():AbsSystemServerAdapter" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SH6B0A9O5Fb8TWGNusk7-0">
+        <mxCell id="SH6B0A9O5Fb8TWGNusk7-3" value="+ getSystemServerAdapter():AbsSystemServerAdapter" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="SH6B0A9O5Fb8TWGNusk7-0">
           <mxGeometry y="86" width="330" height="26" as="geometry" />
         </mxCell>
         <mxCell id="SH6B0A9O5Fb8TWGNusk7-18" value="+ getSystemAdapterFactory:SystemAdapterFactory" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SH6B0A9O5Fb8TWGNusk7-0">
           <mxGeometry y="112" width="330" height="26" as="geometry" />
         </mxCell>
         <mxCell id="SH6B0A9O5Fb8TWGNusk7-4" value="ServiceFactoryImpl" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="130" y="260" width="290" height="112" as="geometry" />
+          <mxGeometry x="140" y="260" width="290" height="112" as="geometry" />
         </mxCell>
         <mxCell id="SH6B0A9O5Fb8TWGNusk7-5" value="+ getVivoCommonService():IVivoCommon.Stub" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="SH6B0A9O5Fb8TWGNusk7-4">
           <mxGeometry y="26" width="290" height="26" as="geometry" />
@@ -86,10 +86,10 @@
         <mxCell id="SH6B0A9O5Fb8TWGNusk7-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="SH6B0A9O5Fb8TWGNusk7-4">
           <mxGeometry y="52" width="290" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="SH6B0A9O5Fb8TWGNusk7-7" value="+ getVgcManagerService():IVivoVgcService.Stub" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="SH6B0A9O5Fb8TWGNusk7-4">
+        <mxCell id="SH6B0A9O5Fb8TWGNusk7-19" value="+...." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="SH6B0A9O5Fb8TWGNusk7-4">
           <mxGeometry y="60" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="SH6B0A9O5Fb8TWGNusk7-19" value="+...." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="SH6B0A9O5Fb8TWGNusk7-4">
+        <mxCell id="SH6B0A9O5Fb8TWGNusk7-7" value="+ getVgcManagerService():IVivoVgcService.Stub" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="SH6B0A9O5Fb8TWGNusk7-4">
           <mxGeometry y="86" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="SH6B0A9O5Fb8TWGNusk7-8" value="ServiceAdapterFactoryImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -120,6 +120,12 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="250" y="430" as="sourcePoint" />
             <mxPoint x="410" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SH6B0A9O5Fb8TWGNusk7-21" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SH6B0A9O5Fb8TWGNusk7-7" target="zkfFHV4jXpPFQw0GAbJ--24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="320" as="sourcePoint" />
+            <mxPoint x="-20" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
