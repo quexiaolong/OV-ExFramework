@@ -1,0 +1,13 @@
+Filesystem       1K-blocks     Used Available Use% Mounted on
+tmpfs              3815172     1424   3813748   1% /dev
+tmpfs              3815172        0   3815172   0% /mnt
+/dev/block/dm-4    5344044  5327120       540 100% /
+/dev/block/dm-5     290524   289644         0 100% /product
+/dev/block/dm-6    1278404  1274240         0 100% /vendor
+/dev/block/dm-7       1008     1000         0 100% /odm
+/dev/block/dm-8      60384    44412     14684  76% /oem
+/dev/block/dm-9     188852      144    184680   1% /vgc
+tmpfs              3815172        0   3815172   0% /apex
+/dev/block/sda18    237536    18556    211120   9% /cache
+/dev/block/sda19 113862604 26431464  87300068  24% /data
+/dev/fuse        113657804 26562536  87095268  24% /storage/emulated

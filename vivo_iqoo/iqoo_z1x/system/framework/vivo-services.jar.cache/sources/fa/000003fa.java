@@ -1,0 +1,98 @@
+package com.android.server.policy;
+
+import android.os.SystemProperties;
+import android.view.KeyEvent;
+import android.view.WindowManager;
+import com.vivo.content.VivoConstants;
+import com.vivo.face.common.data.Constants;
+
+/* loaded from: classes.dex */
+public final class VivoPolicyConstant {
+    public static final String ACTION_HW_KEY_ALARM_CHANGE = "vivo.intent.action.HW_KEY_ALARM_CHANGE";
+    public static final String ACTION_INPUT_VOLUME_CLICK = "com.vivo.inputtest.intent.action.VOLUME_KEY_CLICK";
+    public static final String ACTION_MTK_LOG_CHANGED = "com.mediatek.mtklogger.intent.action.LOG_STATE_CHANGED";
+    public static final String ACTION_POWER_KEY_OVER_LONG_PRESS = "vivo.intent.action.POWER_KEY_OVER_LONG_PRESS";
+    public static final String ACTION_POWER_KEY_SCREEN_OFF = "vivo.intent.action.POWER_KEY_SCREEN_OFF";
+    public static final String ACTION_VIVO_LOG_CHANGED = "android.vivo.bbklog.action.CHANGED";
+    public static final int FINISH_HANDLED = -101;
+    public static final int FINISH_NOT_HANDLED = -102;
+    public static final int FORWARD = -100;
+    public static final int KEYCODE_AI;
+    public static final int KEYCODE_BAR_SWIPE;
+    public static final int KEYCODE_CAMERA_DOUBLE_CLICK;
+    public static final int KEYCODE_GAME_PAD_LEFT;
+    public static final int KEYCODE_GAME_PAD_RIGHT;
+    public static final int KEYCODE_IMUSIC_COLLECT;
+    public static final int KEYCODE_SCREEN_CLOCK_WAKE_UP;
+    public static final int KEYCODE_TS_LARGE_SUPPRESSION;
+    public static final int KEYCODE_WAKEUP;
+    public static final int KEYCODE_WAKEUP_SWIPE;
+    public static final String KEY_BOOT_REASON = "sys.boot.reason";
+    public static final String KEY_DRIVING_MODE = "sys.drive_mode";
+    public static final String KEY_MOTOR_MODE = "motor_mode_enabled";
+    public static final String KEY_SUPER_SAVER = "sys.super_power_save";
+    public static final String KEY_VIVO_INPUT_LOG_CTRL = "persist.sys.input.log";
+    public static final String KEY_VIVO_LOG_CTRL = "persist.sys.log.ctrl";
+    public static final Object OBJECT_AIKEY;
+    private static final Object OBJECT_BAR_SWIPE;
+    public static final Object OBJECT_CAMERA_DOUBLE_CLICK_KEY;
+    private static final Object OBJECT_DISABLE_HOMEKEY_LONGPRESS;
+    private static final Object OBJECT_FLAG_HOMEKEY_DOUBLE_CLICK;
+    public static final Object OBJECT_GAME_PAD_LEFT;
+    public static final Object OBJECT_GAME_PAD_RIGHT;
+    private static final Object OBJECT_HOMEKEY_DISPATCHED;
+    public static final Object OBJECT_IMUSIC_COLLECT_KEY;
+    public static final Object OBJECT_SCREEN_CLOCK_WAKE_UP_KEY;
+    private static final Object OBJECT_TS_LARGE_SUPPRESSION;
+    private static final Object OBJECT_WAKEUP;
+    private static final Object OBJECT_WAKEUP_SWIPE;
+    public static final String PLATFORM_INFO = SystemProperties.get(VivoConstants.PLATFORM_TAG, Constants.Setting.ARD9_FACE_UNLOCK_FAST_UNLOCK);
+    public static final int PRIVATE_FLAG_DISABLE_HOMEKEY_LONGPRESS;
+    public static final int PRIVATE_FLAG_HOMEKEY_DISPATCHED;
+    public static final int PRIVATE_FLAG_HOMEKEY_DOUBLE_CLICK;
+    public static final int STATE_BEFORE_DISPATCHING = 1;
+    public static final int STATE_BEFORE_QUEUEING = 0;
+    public static final int STATE_UNKNOWN = -1;
+
+    static {
+        Object staticFieldValue = VivoPolicyUtil.getStaticFieldValue(KeyEvent.class, "KEYCODE_AI");
+        OBJECT_AIKEY = staticFieldValue;
+        KEYCODE_AI = staticFieldValue != null ? ((Integer) staticFieldValue).intValue() : 0;
+        Object staticFieldValue2 = VivoPolicyUtil.getStaticFieldValue(KeyEvent.class, "KEYCODE_GAME_PAD_LEFT");
+        OBJECT_GAME_PAD_LEFT = staticFieldValue2;
+        KEYCODE_GAME_PAD_LEFT = staticFieldValue2 != null ? ((Integer) staticFieldValue2).intValue() : 0;
+        Object staticFieldValue3 = VivoPolicyUtil.getStaticFieldValue(KeyEvent.class, "KEYCODE_GAME_PAD_RIGHT");
+        OBJECT_GAME_PAD_RIGHT = staticFieldValue3;
+        KEYCODE_GAME_PAD_RIGHT = staticFieldValue3 != null ? ((Integer) staticFieldValue3).intValue() : 0;
+        Object staticFieldValue4 = VivoPolicyUtil.getStaticFieldValue(WindowManager.LayoutParams.class, "PRIVATE_FLAG_HOMEKEY_DISPATCHED");
+        OBJECT_HOMEKEY_DISPATCHED = staticFieldValue4;
+        PRIVATE_FLAG_HOMEKEY_DISPATCHED = staticFieldValue4 != null ? ((Integer) staticFieldValue4).intValue() : 0;
+        Object staticFieldValue5 = VivoPolicyUtil.getStaticFieldValue(WindowManager.LayoutParams.class, "PRIVATE_FLAG_DISABLE_HOMEKEY_LONGPRESS");
+        OBJECT_DISABLE_HOMEKEY_LONGPRESS = staticFieldValue5;
+        PRIVATE_FLAG_DISABLE_HOMEKEY_LONGPRESS = staticFieldValue5 != null ? ((Integer) staticFieldValue5).intValue() : 0;
+        Object staticFieldValue6 = VivoPolicyUtil.getStaticFieldValue(WindowManager.LayoutParams.class, "PRIVATE_FLAG_HOMEKEY_DOUBLE_CLICK");
+        OBJECT_FLAG_HOMEKEY_DOUBLE_CLICK = staticFieldValue6;
+        PRIVATE_FLAG_HOMEKEY_DOUBLE_CLICK = staticFieldValue6 != null ? ((Integer) staticFieldValue6).intValue() : 0;
+        Object staticFieldValue7 = VivoPolicyUtil.getStaticFieldValue(KeyEvent.class, "KEYCODE_TS_LARGE_SUPPRESSION");
+        OBJECT_TS_LARGE_SUPPRESSION = staticFieldValue7;
+        KEYCODE_TS_LARGE_SUPPRESSION = staticFieldValue7 != null ? ((Integer) staticFieldValue7).intValue() : 0;
+        Object staticFieldValue8 = VivoPolicyUtil.getStaticFieldValue(KeyEvent.class, "KEYCODE_BAR_SWIPE");
+        OBJECT_BAR_SWIPE = staticFieldValue8;
+        KEYCODE_BAR_SWIPE = staticFieldValue8 != null ? ((Integer) staticFieldValue8).intValue() : 0;
+        Object staticFieldValue9 = VivoPolicyUtil.getStaticFieldValue(KeyEvent.class, "KEYCODE_WAKEUP");
+        OBJECT_WAKEUP = staticFieldValue9;
+        KEYCODE_WAKEUP = staticFieldValue9 != null ? ((Integer) staticFieldValue9).intValue() : 0;
+        Object staticFieldValue10 = VivoPolicyUtil.getStaticFieldValue(KeyEvent.class, "KEYCODE_WAKEUP_SWIPE");
+        OBJECT_WAKEUP_SWIPE = staticFieldValue10;
+        KEYCODE_WAKEUP_SWIPE = staticFieldValue10 != null ? ((Integer) staticFieldValue10).intValue() : 0;
+        Object staticFieldValue11 = VivoPolicyUtil.getStaticFieldValue(KeyEvent.class, "KEYCODE_SCREEN_CLOCK_WAKE_UP");
+        OBJECT_SCREEN_CLOCK_WAKE_UP_KEY = staticFieldValue11;
+        KEYCODE_SCREEN_CLOCK_WAKE_UP = staticFieldValue11 != null ? ((Integer) staticFieldValue11).intValue() : 0;
+        Object staticFieldValue12 = VivoPolicyUtil.getStaticFieldValue(KeyEvent.class, "KEYCODE_IMUSIC_COLLECT");
+        OBJECT_IMUSIC_COLLECT_KEY = staticFieldValue12;
+        KEYCODE_IMUSIC_COLLECT = staticFieldValue12 != null ? ((Integer) staticFieldValue12).intValue() : 0;
+        Object staticFieldValue13 = VivoPolicyUtil.getStaticFieldValue(KeyEvent.class, "KEYCODE_CAMERA_DOUBLE_CLICK");
+        OBJECT_CAMERA_DOUBLE_CLICK_KEY = staticFieldValue13;
+        KEYCODE_CAMERA_DOUBLE_CLICK = staticFieldValue13 != null ? ((Integer) staticFieldValue13).intValue() : 0;
+    }
+}
